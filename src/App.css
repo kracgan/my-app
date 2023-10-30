@@ -1,0 +1,62 @@
+App.css
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  
+}
+
+body {
+  background-image: url('bg2.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center; 
+  background-color: rgba(255, 179, 86, 0.609);
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;  
+  
+}
+
+.ticket-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ticket-type {
+  margin: 0 20px;
+  text-align: center;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+span {
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.total-cost {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
